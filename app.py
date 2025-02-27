@@ -4,9 +4,9 @@ import joblib
 import plotly.express as px
 
 # Load trained model and preprocessing tools safely
-MODEL_PATH = "models/food_spoilage_model.pkl"
-SCALER_PATH = "models/scaler.pkl"
-ENCODER_PATH = "models/label_encoder.pkl"
+MODEL_PATH = "food_spoilage_model.pkl"
+SCALER_PATH = "scaler.pkl"
+ENCODER_PATH = "label_encoder.pkl"
 
 try:
     model = joblib.load(MODEL_PATH)
